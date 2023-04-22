@@ -551,6 +551,7 @@ input, select, textarea {
 		top: -1em;
 		vertical-align: middle;
 		width: 90%;
+		margin-top: 2em;
 	}
 
 		#header h1 {
