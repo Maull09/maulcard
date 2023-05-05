@@ -2315,11 +2315,13 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		object-fit: contain;
 	}
 
 		.image img {
 			border-radius: 4px;
 			display: block;
+			object-fit: contain;
 		}
 
 		.image.left, .image.right {
@@ -2346,6 +2348,7 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			object-fit: cover;
 		}
 
 			.image.fit img {
@@ -2596,11 +2599,13 @@ input, select, textarea {
 				width: 100%;
 				border-radius: 4px;
 				overflow: hidden;
+				object-fit: contain;
 			}
 
 				.tiles article > .image img {
 					display: block;
 					width: 100%;
+					object-fit: cover;
 				}
 
 				.tiles article > .image:before {
@@ -2619,6 +2624,7 @@ input, select, textarea {
 					opacity: 1.0;
 					z-index: 1;
 					opacity: 0.8;
+					object-fit: cover;
 				}
 
 				.tiles article > .image:after {
@@ -2640,6 +2646,7 @@ input, select, textarea {
 					background-size: 100% 100%;
 					opacity: 0.25;
 					z-index: 2;
+					object-fit: cover;
 				}
 
 			.tiles article > a {
